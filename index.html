@@ -23,12 +23,12 @@
         .main {
             height: 100%;
             width: 90%;
-            margin: 0 5%;
+            margin: 0 5% 10% 5%;
         }
 
         #typed {
             font-family: DancingScript;
-            font-size: 40pt;
+            font-size: 42pt;
             max-width: 100%;
             overflow-wrap: break-word;
         }
@@ -37,7 +37,7 @@
 
 <body>
     <div class="main">
-        <h2 class="title">A Letter for Your</h2>
+        <h2 class="title">A Letter for You</h2>
         <div>
             <span id="typed"></span>
         </div>
@@ -59,7 +59,7 @@ before you, and behind you, would you offer me the chance?<br/>&emsp;&emsp;Wish 
         typeSpeed: 42,
         backSpeed: 0,
         loop: false,
-        onComplete: function (self) { showCursor(false); }
+        showCursor: false
     });
 </script>
 
